@@ -1,0 +1,34 @@
+{
+    "name": "TrainerControls",
+    "maps": [
+        {
+            "name": "Trainer",
+            "id": "fbf9974d-9b5c-4d29-92db-c1ad31fc0de3",
+            "actions": [
+                {
+                    "name": "StartFire",
+                    "type": "Button",
+                    "id": "6ce5b0ac-af40-4f72-86fe-95775cde1dcd",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                }
+            ],
+            "bindings": [
+                {
+                    "name": "",
+                    "id": "7cb62f99-c9d1-4725-9f07-606470781972",
+                    "path": "<Keyboard>/f",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "StartFire",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                }
+            ]
+        }
+    ],
+    "controlSchemes": []
+}

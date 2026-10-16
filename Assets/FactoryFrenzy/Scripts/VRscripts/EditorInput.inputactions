@@ -1,0 +1,45 @@
+{
+    "name": "EditorInput",
+    "maps": [
+        {
+            "name": "New action map",
+            "id": "8041e835-a88b-4baf-b69f-3c6bb199f625",
+            "actions": [
+                {
+                    "name": "Delete",
+                    "type": "Button",
+                    "id": "4eb51ca2-bf89-4578-b3ff-5172fc1957dc",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                }
+            ],
+            "bindings": [
+                {
+                    "name": "",
+                    "id": "d0499de0-ab20-44e8-99f3-f8c4ef2830e5",
+                    "path": "<XRController>{RightHand}/{PrimaryButton}",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Delete",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "659d1b4c-9dfc-4aca-8626-e45684882add",
+                    "path": "<XRController>{LeftHand}/{PrimaryButton}",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Delete",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                }
+            ]
+        }
+    ],
+    "controlSchemes": []
+}

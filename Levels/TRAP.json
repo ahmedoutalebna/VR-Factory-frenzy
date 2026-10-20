@@ -1,0 +1,141 @@
+{
+    "levelName": "TRAP",
+    "pieces": [
+        {
+            "typeId": "TRAP",
+            "position": {
+                "x": -28.917999267578126,
+                "y": 2.328000068664551,
+                "z": 0.0
+            },
+            "rotation": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+            },
+            "locked": false,
+            "isMoving": false,
+            "moving": {
+                "start": {
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0
+                },
+                "end": {
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0
+                },
+                "travelTime": 0.0,
+                "rotationAxis": {
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0
+                },
+                "rotationSpeed": 0.0
+            }
+        },
+        {
+            "typeId": "tree",
+            "position": {
+                "x": -24.269214630126954,
+                "y": 3.937316417694092,
+                "z": 0.4128251075744629
+            },
+            "rotation": {
+                "x": 316.4714660644531,
+                "y": 128.3123016357422,
+                "z": 35.45206832885742
+            },
+            "locked": false,
+            "isMoving": false,
+            "moving": {
+                "start": {
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0
+                },
+                "end": {
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0
+                },
+                "travelTime": 0.0,
+                "rotationAxis": {
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0
+                },
+                "rotationSpeed": 0.0
+            }
+        },
+        {
+            "typeId": "tree",
+            "position": {
+                "x": -28.979999542236329,
+                "y": 2.980241298675537,
+                "z": 3.2799999713897707
+            },
+            "rotation": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+            },
+            "locked": false,
+            "isMoving": false,
+            "moving": {
+                "start": {
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0
+                },
+                "end": {
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0
+                },
+                "travelTime": 0.0,
+                "rotationAxis": {
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0
+                },
+                "rotationSpeed": 0.0
+            }
+        },
+        {
+            "typeId": "moving_platform",
+            "position": {
+                "x": -48.81999969482422,
+                "y": 4.840000152587891,
+                "z": 6.699999809265137
+            },
+            "rotation": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+            },
+            "locked": false,
+            "isMoving": true,
+            "moving": {
+                "start": {
+                    "x": -48.81999969482422,
+                    "y": 4.840000152587891,
+                    "z": 6.699999809265137
+                },
+                "end": {
+                    "x": -45.81999969482422,
+                    "y": 4.840000152587891,
+                    "z": 6.699999809265137
+                },
+                "travelTime": 3.0,
+                "rotationAxis": {
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0
+                },
+                "rotationSpeed": 0.0
+            }
+        }
+    ]
+}

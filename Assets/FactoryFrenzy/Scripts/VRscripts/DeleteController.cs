@@ -24,7 +24,7 @@ public class DeleteController : MonoBehaviour
     {
         foreach (var item in new List<LevelItem>(LevelItem.HeldItems))
         {
-            if (sound != null) sound.Play();
+            DeleteSound.Play(item.transform.position);
             Destroy(item.gameObject);
         }
     }

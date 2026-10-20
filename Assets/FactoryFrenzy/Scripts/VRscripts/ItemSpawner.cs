@@ -21,5 +21,6 @@ public class ItemSpawner : MonoBehaviour
         Quaternion rot = Quaternion.LookRotation(-fwd);   // faces you
 
         Instantiate(prefab, pos, rot);
+        EditorSounds.PlaySpawn(pos);
     }
 }

@@ -60,13 +60,11 @@ public class ResultsScreen : MonoBehaviour
     // RaceManager still calls Show(time), so the parameter stays but is not displayed
     public void Show(float time)
     {
-        int died = Mathf.Max(0, DeathCount - 1);   // the first Respawn() is the start placement, not a death
+        int minutes = Mathf.FloorToInt(time / 60f);
+        float seconds = time - minutes * 60f;
+        string timer = minutes > 0 ? $"{minutes}:{seconds:00.00}" : $"{seconds:0.00} s";
 
-        string deaths = died == 0 ? "You didn't die once!"
-                      : died == 1 ? "You only died 1 time"
-                      : $"You only died {died} times";
-
-        label.text = $"Congratulations!\n\n{deaths}\n\n<size=40>Press R to restart</size>";
+        label.text = $"Congratulations!\n\nYour time: {timer}\n\n<size=40>Press R to restart</size>";
         canvasRoot.SetActive(true);
         Cursor.lockState = CursorLockMode.None;
         Cursor.visible = true;

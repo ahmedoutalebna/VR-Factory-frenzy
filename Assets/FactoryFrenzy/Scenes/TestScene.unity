@@ -2123,6 +2123,61 @@ BoxCollider:
   serializedVersion: 3
   m_Size: {x: 15.34, y: 2.511542, z: 5.3999996}
   m_Center: {x: -2.5, y: 1.255771, z: 2.5}
+--- !u!1 &775415249
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 775415251}
+  - component: {fileID: 775415250}
+  m_Layer: 0
+  m_Name: LevelLoader
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &775415250
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 775415249}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bc0aee2b4ea460b4ab323a3f8fec80ab, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  registry:
+  - typeId: tree
+    prefab: {fileID: 8145180899380037513, guid: 900020bfbf6587d4585d9a2820e456f2,
+      type: 3}
+  - typeId: moving_platform
+    prefab: {fileID: 3891489316009307605, guid: 0821efeae0d2dc44b8ef8269d7cc9154,
+      type: 3}
+  - typeId: TRAP
+    prefab: {fileID: 1342774651384427630, guid: bd95c52d6828fdf42b8081bed36bc037,
+      type: 3}
+  levelToLoad: test123
+--- !u!4 &775415251
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 775415249}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -16.956339, y: 4.810458, z: 0.70103467}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &781135479
 GameObject:
   m_ObjectHideFlags: 0
@@ -3697,9 +3752,12 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   dropDelay: 0
-  pushOnDrop: {x: 0, y: 0, z: 0}
+  pushOnDrop: {x: 2.83, y: 0, z: 0}
   minKillSpeed: 1
   resetDelay: 5
+  pushSpeed: 16.7
+  pushUp: 8.88
+  pushCooldown: 0.5
 --- !u!54 &1217909309
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -5788,7 +5846,7 @@ PrefabInstance:
     - target: {fileID: 5411270384614237885, guid: 2cfd87436f82f694cb1ed07e801a4415,
         type: 3}
       propertyPath: m_LocalPosition.z
-      value: 6.7
+      value: 8.786
       objectReference: {fileID: 0}
     - target: {fileID: 5411270384614237885, guid: 2cfd87436f82f694cb1ed07e801a4415,
         type: 3}
@@ -6286,3 +6344,4 @@ SceneRoots:
   - {fileID: 1992621200}
   - {fileID: 953572642}
   - {fileID: 906680973}
+  - {fileID: 775415251}
